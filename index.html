@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b1a6922530.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Sebastião Júnior</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-code fa-xl"></i>
+            <h2>JrCoder</h2>
+            <i class="fa-solid fa-code fa-xl"></i>
+        </div>
+        <ul class="flex">
+            <li>
+                <a target="_blank" href="https://github.com/1sebastiaojunior" >GitHub</a>
+            </li>
+            <li>
+                <a target="_blank" href="mailto:ssqjr@hotmail.com">E-mail</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://wa.me/92999999999">Celular</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+
+            <div class="name">
+                <h1>Sebastião Júnior</h1>
+                <h5>Front-End Developer</h5>
+            </div>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-circle-arrow-down"></i>
+            </div>
+            <div style="display: none;" id="about">
+                <p>
+                    Olá, eu sou Sebastião Júnior!<br>
+Graduado em Sistemas de Informação pelo Centro Universitário Fametro, e entusiasta da tecnologia.<br>
+Atualmente focado no desenvolvimento Front-End, com conhecimento em HTML, CSS, JS, Bootstrap e criação de layouts responsivos.
+Possuo também familiaridade com o sistema de controle de versionamento Git e a plataforma GitHub.
+                </p>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div class="form">
+                <div>
+                    <p>Deixe seu contato</p>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Seu melhor email...">
+                    <button>Enviar</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        function displayAbout(){
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
