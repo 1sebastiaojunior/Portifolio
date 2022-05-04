@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  font-size: larger;
+}
+
+i{
+  text-decoration: none;
+  font-size: 40px;
+}
+
+body {
+  background: url(./pexels-1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+header{
+  background-color: #19012fe7;
+  display: flex;
+  height: 100px;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.fa-code{
+  color: #cccc;
+}
+
+header .logo{
+  background-color: #0c3647a1;
+  height: 30px;
+  border-radius: 0 15px 0 15px;
+  align-items: center;
+  padding: 20px;
+}
+
+header h2{
+  color: #cc2c49;
+}
+header div{
+  display: flex;
+}
+
+header ul{
+  display: flex;
+}
+
+header ul li{
+  padding: 10px;
+}
+
+header ul li i:hover {
+  color: #cc2c4983;
+}
+
+.container{
+  background-color: #111013bf;
+  height: 620px;
+  width: 75%;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.nome h1{
+  color: #fff;
+  font-size: 60px;
+  padding: 30px;
+}
+
+.nome h5{
+  color: #fff;
+  font-size: 30px;
+}
+
+#sobre p{
+  color: #fff;
+}
+
+#arrow {
+  padding: 25px;
+  font-size: 50px;
+  cursor: pointer;
+  animation: blink 300ms steps(5, start) infinite;
+}
+
+.fa-circle-arrow-down {
+  color: #cc2c4983;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+#animation {
+  transition: 100ms;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: 300ms;
+}
+
+.active {
+  display: block !important;
+}
+
+#about p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.form input {
+  width: 50%;
+  background-color: #0c3647a1;
+  padding: 5px 10px;
+  border-radius: 5px 0 0 0;
+}
+
+.form button {
+  width: 30%;
+  padding: 5px 10px;
+  background-color: #0c3647a1;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0 0 5px 0;
+}
+
+.form button:hover {
+  background-color: #cc2c4983;
+}
+
+@media only screen and(max-width: 854px){
+  .form{
+    width: 75%;
+    }
+  }
+
+  @media only screen and(max-width: 480px){
+    .container .nome h1{
+      font-size: 30px;
+    }
+    .container .nome h5{
+      font-size: 15px;
+    }
+    #about p{
+      max-width: 80%;
+      text-align: justify;
+    }
+}
