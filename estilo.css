@@ -62,7 +62,7 @@ header ul li i:hover {
 .container{
   background-color: #111013bf;
   height: 620px;
-  width: 75%;
+  width: 65%;
   margin: auto;
   padding: 5px;
   text-align: center;
@@ -81,6 +81,7 @@ header ul li i:hover {
 
 #sobre p{
   color: #fff;
+  text-align:center;
 }
 
 #arrow {
