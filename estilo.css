@@ -59,7 +59,7 @@ header ul li i:hover {
   height: auto;
   width: 65%;
   margin: auto;
-  padding: 50px;
+  padding: 50px 5px;
   border-radius: 50px;
   text-align: center;
 }
