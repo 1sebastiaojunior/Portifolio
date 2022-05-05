@@ -58,8 +58,9 @@ header ul li i:hover {
   background-color: #111013bf;
   height: auto;
   width: 65%;
-  margin: 0 auto;
+  margin: auto;
   padding: 50px;
+  border-radius: 50px;
   text-align: center;
 }
 
@@ -143,4 +144,5 @@ header ul li i:hover {
 .form button:hover {
   background-color: #cc2c4983;
 }
+
 
