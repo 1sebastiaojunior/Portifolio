@@ -4,6 +4,12 @@
   color: #fff;
 }
 
+:root{
+  font-size: 62.5%;
+
+  --nav-height: 7.2rem;
+}
+
 body {
   background: url(./pexels-1.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -12,10 +18,10 @@ body {
 header{
   background-color: #19012fe7;
   display: flex;
-  height: 80px;
+  height: var(--nav-height);
   justify-content:space-around;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 7rem;
 }
 
 .fa-code{
@@ -24,13 +30,14 @@ header{
 
 header .logo{
   background-color: #0c3647a1;
-  height: 15px;
-  border-radius: 0 15px 0 15px;
+  height: 1rem;
+  border-radius: 0 1.5rem 0 1.5rem;
   align-items: center;
-  padding: 20px;
+  padding: 2rem;
 }
 
 header h2{
+  font-size: 2rem;
   color: #cc2c49;
 }
 header div{
@@ -43,11 +50,11 @@ header ul{
 }
 
 header i{
-  font-size: 35px;
+  font-size: 3.5rem;
 }
 
 header ul li{
-  padding: 10px;
+  padding: 1rem;
 }
 
 header ul li i:hover {
@@ -57,32 +64,33 @@ header ul li i:hover {
 .container{
   background-color: #111013bf;
   height: auto;
-  width: 65%;
+  width: 32.7rem;
   margin: auto;
-  padding: 50px 2px;
-  border-radius: 50px;
+  padding: 5rem 1.5rem;
+  border-radius: 5rem;
   text-align: center;
 }
 
 .container .nome h1{
   color: #fff;
-  font-size: 60px;
-  padding: 5px;
+  font-size: 3rem;
+  padding-bottom: 2rem;
 }
 
 .container .nome h5{
   color: #fff;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 #sobre p{
   color: #fff;
+  font-size: 1.5rem;
   text-align:center;
 }
 
 #arrow {
-  padding: 25px;
-  font-size: 50px;
+  padding: 2.5rem;
+  font-size: 5rem;
   cursor: pointer;
   animation: blink 300ms steps(5, start) infinite;
 }
@@ -102,7 +110,7 @@ header ul li i:hover {
 }
 
 #arrow p{
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 .rotate {
@@ -114,35 +122,41 @@ header ul li i:hover {
   display: block !important;
 }
 
-#about p {
-  max-width: 600px;
+#sobre p {
+  max-width: 60rem;
   margin: 0 auto;
+  font-size: 1.6rem;
+  padding: 1rem;
 }
 
 .form {
   width: 80%;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .form input {
   width: 50%;
   background-color: #0c3647a1;
-  padding: 5px 10px;
-  border-radius: 5px 0 0 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem 0 0 0;
 }
 
 .form button {
   width: 30%;
-  padding: 5px 10px;
+  padding: 0.5rem 1rem;
   background-color: #0c3647a1;
   font-weight: 600;
   cursor: pointer;
-  border-radius: 0 0 5px 0;
+  border-radius: 0 0 0.5rem 0;
 }
 
 .form button:hover {
   background-color: #cc2c4983;
+}
+
+.form p{
+  font-size: 1.5rem;
 }
 
 
